@@ -1,0 +1,12 @@
+server:
+  port: 9000
+
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:postgresql://localhost:5432/spring_tutorial
+    username: spring_user
+    password: springpassword
+logging:
+  path: /var/log/spring-tutorial/

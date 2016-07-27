@@ -1,3 +1,9 @@
+# IntelliJ IDEA files
 .idea/
 *.iml
+
+# Compiled data
 target/
+
+# Credentials configs
+src/main/resources/config/app_conf.yml
